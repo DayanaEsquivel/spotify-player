@@ -1,0 +1,43 @@
+.Index{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Index-searchBox{
+    display: flex;
+}
+.SongItem:hover{
+    background-color: gray;
+
+}
+.SongItem > a{
+    display: flex;
+    color: #212121;
+}
+.SongItem{
+    display: flex;
+    width: 100%;
+    margin: 4% 2% 2% 2%;
+    transition: all .3s ease;
+    cursor: pointer;
+    padding: 2%;
+}
+
+.SongItem-photo > img{
+    width: 100px;
+    height: auto;
+}
+.SongItem-info > h2{
+    font-size: 1.4vw;
+    margin: 0;
+}
+.SongItem-info > h3{
+    font-size: 1.2vw;
+
+}
+.SongItem-info{
+    margin-left: 1vw;
+}
